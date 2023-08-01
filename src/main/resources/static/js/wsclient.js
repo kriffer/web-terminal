@@ -1,4 +1,6 @@
-let socket = new WebSocket("ws://localhost:8080/console");
+let socket = new WebSocket(location.protocol !== 'https:' ?
+    `ws://${window.location.hostname}:8080/console` :
+    `wss://${window.location.hostname}/apps/webterminal/console`);
 
 const commandInput = document.getElementById('input-command');
 const host = document.getElementById('host');
