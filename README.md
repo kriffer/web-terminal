@@ -1,7 +1,8 @@
 # web-terminal
 Web based terminal emulator
 
-This simple app is based on Spring Boot 3 and JSch library ( http://www.jcraft.com/jsch/)
+This simple app is based on Spring Boot 3, web sockets, and JSch ssh2 java library ( http://www.jcraft.com/jsch/).
+The goal is to demonstrate these things working together, as well as the usecase: reaching out to the remote server via ssh from a web browser, with no efforts.
 
 Live demo https://www.kriffer.io/apps/webterminal/
 
