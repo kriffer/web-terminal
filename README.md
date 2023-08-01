@@ -11,9 +11,9 @@ Live demo https://www.kriffer.io/apps/webterminal/
 
 `cd web-terminal && mvn package`
 
-`java -jar target/webterminal-0.0.1-SNAPSHOT.jar`
+`java -jar target/webterminal-0.0.1-SNAPSHOT.jar` (Please note this project uses Java 17)
 
-open http://localhost:8080 in browser
+ open http://localhost:8080 in browser
 
 ### To Do:
 - add key ssh auth
